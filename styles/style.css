@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.box {
+    display: inline-block;
+    width: 24%;
+
+    min-height: 50vh;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+
+    vertical-align: top;
+    padding: 15px;
+    margin-right: -1px;
+
+    text-align: left;
+}
+
+span {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+
+    padding: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+li::before {
+    content: "— ";
+}
+
+li:nth-child(even) {
+    color: red;
+}
